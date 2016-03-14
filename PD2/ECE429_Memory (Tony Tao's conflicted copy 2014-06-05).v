@@ -1,0 +1,61 @@
+`define MEMORY_SIZE_BYTES 1048576	// 1 MB
+
+module ECE429_Memory(clock, address, datain, dataout, access_size, r_w);
+
+input clock;
+input [0:31] address;
+input [0:31] datain;
+input [0:1] access_size;	// 11 for word, 10 for half-word, 01/00 byte
+input r_w;			// 0 to read, 1 to write
+
+output [0:31] dataout;
+
+wire[0:31] mod_addr;
+reg[0:31] tmp_address;
+reg[0:31] tmp_data;
+reg[0:1] tmp_access_size;
+reg tmp_r_w;
+reg[0:7] memory[0: `MEMORY_SIZE_BYTES -1 ];
+
+assign dataout = (!tmp_r_w & !clock) ? tmp_data : 32'bz;
+
+assign mod_addr = address - 32'h80020000; 
+
+always @ (negedge clock)
+begin
+	if( tmp_r_w ) begin	
+		if (tmp_access_size[0] == 0) begin	//byte
+			memory[tmp_address] = tmp_data[24:31];
+		end else if (tmp_access_size[1] == 0) begin	//half-word
+			memory[tmp_address] = tmp_data[16:23];
+			memory[tmp_address + 1] = tmp_data[24:31];
+		end else begin	//word
+			memory[tmp_address] = tmp_data[0:7];
+			memory[tmp_address + 1] = tmp_data[8:15];
+			memory[tmp_address + 2] = tmp_data[16:23];
+			memory[tmp_address + 3] = tmp_data[24:31];
+		end
+	end
+	//$display("\t\t%h\t%h\t%h\t%h\t%h\t%h\t%h\t%h\t%h", clock, address, tmp_address, datain, tmp_data, access_size, tmp_access_size, tmp_r_w, dataout);
+end
+
+always @ (posedge clock)
+begin
+ 	tmp_access_size = access_size;
+ 	tmp_r_w = r_w;
+ 	tmp_address = mod_addr;
+	if ( !tmp_r_w ) begin
+		if (tmp_access_size[0] == 0) begin	//byte
+			tmp_data = {24'h000000, memory[tmp_address]};
+		end else if (tmp_access_size[1] == 0) begin	//half-word
+			tmp_data = {16'h0000, memory[tmp_address], memory[tmp_address + 1]};
+		end else begin	//word
+			tmp_data = {memory[tmp_address], memory[tmp_address + 1], memory[tmp_address + 2], memory[tmp_address + 3]};
+		end
+	end else begin
+		tmp_data = datain;
+	end
+	//$display("\t\t%h\t%h\t%h\t%h\t%h\t%h\t%h\t%h\t%h", clock, address, tmp_address, datain, tmp_data, access_size, tmp_access_size, tmp_r_w, dataout);
+end
+endmodule
+	

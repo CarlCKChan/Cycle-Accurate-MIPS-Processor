@@ -1,0 +1,38 @@
+{C:/Users/Carl/Documents/Waterloo/4A Term/ECE 429 - Computer Architecture/Project/PD1/ECE429_SRECParser.v} {1 {vlog -stats=none -work work {C:/Users/Carl/Documents/Waterloo/4A Term/ECE 429 - Computer Architecture/Project/PD1/ECE429_SRECParser.v}
+Model Technology ModelSim PE Student Edition vlog 10.3a Compiler 2014.04 Apr 14 2014
+-- Compiling module ECE429_SRECParser
+
+Top level modules:
+	ECE429_SRECParser
+
+} {} {}} {C:/Users/Carl/Documents/Waterloo/4A Term/ECE 429 - Computer Architecture/Project/PD1/ECE429_Memory_tb.v} {1 {vlog -stats=none -work work {C:/Users/Carl/Documents/Waterloo/4A Term/ECE 429 - Computer Architecture/Project/PD1/ECE429_Memory_tb.v}
+Model Technology ModelSim PE Student Edition vlog 10.3a Compiler 2014.04 Apr 14 2014
+-- Compiling module ECE429_Memory
+-- Compiling module ECE429_Memory_tb
+
+Top level modules:
+	ECE429_Memory_tb
+
+} {} {}} {C:/Users/Carl/Documents/Waterloo/4A Term/ECE 429 - Computer Architecture/Project/PD1/ECE429_SRECParser_tb.v} {1 {vlog -stats=none -work work {C:/Users/Carl/Documents/Waterloo/4A Term/ECE 429 - Computer Architecture/Project/PD1/ECE429_SRECParser_tb.v}
+Model Technology ModelSim PE Student Edition vlog 10.3a Compiler 2014.04 Apr 14 2014
+-- Compiling module ECE429_SRECParser
+-- Compiling module ECE429_SRECParser_tb
+
+Top level modules:
+	ECE429_SRECParser_tb
+
+} {} {}} {C:/Users/Carl/Documents/Waterloo/4A Term/ECE 429 - Computer Architecture/Project/PD1/ECE429_Memory.v} {1 {vlog -stats=none -work work {C:/Users/Carl/Documents/Waterloo/4A Term/ECE 429 - Computer Architecture/Project/PD1/ECE429_Memory.v}
+Model Technology ModelSim PE Student Edition vlog 10.3a Compiler 2014.04 Apr 14 2014
+-- Compiling module ECE429_Memory
+
+Top level modules:
+	ECE429_Memory
+
+} {} {}} {C:/Users/Carl/Documents/Waterloo/4A Term/ECE 429 - Computer Architecture/Project/PD1/test.v} {1 {vlog -stats=none -work work {C:/Users/Carl/Documents/Waterloo/4A Term/ECE 429 - Computer Architecture/Project/PD1/test.v}
+Model Technology ModelSim PE Student Edition vlog 10.3a Compiler 2014.04 Apr 14 2014
+-- Compiling module test
+
+Top level modules:
+	test
+
+} {} {}}

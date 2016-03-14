@@ -1,0 +1,62 @@
+C:/Users/Carl/Dropbox/ECE429/ECE429/ECE429_CPU.v {2 {vlog -stats=none -work work C:/Users/Carl/Dropbox/ECE429/ECE429/ECE429_CPU.v
+Model Technology ModelSim PE Student Edition vlog 10.3a Compiler 2014.04 Apr 14 2014
+-- Compiling module ECE429_CPU
+** Warning: C:/Users/Carl/Dropbox/ECE429/ECE429/ECE429_CPU.v(137): (vlog-2643) Unterminated string literal continues onto next line.
+
+
+Top level modules:
+	ECE429_CPU
+
+} {} {}} C:/Users/Carl/Dropbox/ECE429/ECE429/ECE429_Decode.v {1 {vlog -stats=none -work work C:/Users/Carl/Dropbox/ECE429/ECE429/ECE429_Decode.v
+Model Technology ModelSim PE Student Edition vlog 10.3a Compiler 2014.04 Apr 14 2014
+-- Compiling module ECE429_Decode
+
+Top level modules:
+	ECE429_Decode
+
+} {} {}} C:/Users/Carl/Dropbox/ECE429/ECE429/ECE429_Memory.v {1 {vlog -stats=none -work work C:/Users/Carl/Dropbox/ECE429/ECE429/ECE429_Memory.v
+Model Technology ModelSim PE Student Edition vlog 10.3a Compiler 2014.04 Apr 14 2014
+-- Compiling module ECE429_Memory
+
+Top level modules:
+	ECE429_Memory
+
+} {} {}} C:/Users/Carl/Dropbox/ECE429/ECE429/ECE429_CPU_tb.v {1 {vlog -stats=none -work work C:/Users/Carl/Dropbox/ECE429/ECE429/ECE429_CPU_tb.v
+Model Technology ModelSim PE Student Edition vlog 10.3a Compiler 2014.04 Apr 14 2014
+-- Compiling module ECE429_CPU_tb
+
+Top level modules:
+	ECE429_CPU_tb
+
+} {} {}} C:/Users/Carl/Dropbox/ECE429/ECE429/ECE429_ALU.v {1 {vlog -stats=none -work work C:/Users/Carl/Dropbox/ECE429/ECE429/ECE429_ALU.v
+Model Technology ModelSim PE Student Edition vlog 10.3a Compiler 2014.04 Apr 14 2014
+-- Compiling module ECE429_ALU
+
+Top level modules:
+	ECE429_ALU
+
+} {} {}} C:/Users/Carl/Dropbox/ECE429/ECE429/ECE429_Fetch.v {1 {vlog -stats=none -work work C:/Users/Carl/Dropbox/ECE429/ECE429/ECE429_Fetch.v
+Model Technology ModelSim PE Student Edition vlog 10.3a Compiler 2014.04 Apr 14 2014
+-- Compiling module ECE429_Fetch
+
+Top level modules:
+	ECE429_Fetch
+
+} {} {}} C:/Users/Carl/Dropbox/ECE429/ECE429/ECE429_SRECParser.v {1 {vlog -stats=none -work work C:/Users/Carl/Dropbox/ECE429/ECE429/ECE429_SRECParser.v
+Model Technology ModelSim PE Student Edition vlog 10.3a Compiler 2014.04 Apr 14 2014
+-- Compiling module ECE429_SRECParser
+
+Top level modules:
+	ECE429_SRECParser
+
+} {} {}} C:/Users/Carl/Dropbox/ECE429/ECE429/ECE429_RegFile.v {1 {vlog -stats=none -work work C:/Users/Carl/Dropbox/ECE429/ECE429/ECE429_RegFile.v
+Model Technology ModelSim PE Student Edition vlog 10.3a Compiler 2014.04 Apr 14 2014
+-- Compiling module ECE429_RegFile
+
+Top level modules:
+	ECE429_RegFile
+
+} {} {}} C:/Users/Carl/Dropbox/ECE429/ECE429/ECE429_ControlBits.v {1 {vlog -stats=none -work work C:/Users/Carl/Dropbox/ECE429/ECE429/ECE429_ControlBits.v
+Model Technology ModelSim PE Student Edition vlog 10.3a Compiler 2014.04 Apr 14 2014
+
+} {} {}}

@@ -1,0 +1,167 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/Carl/Dropbox/ECE429/lab 5 - stall
+vECE429_ALU
+!s110 1406571880
+!i10b 1
+!s100 [JBoX<lFND`BgiJYnGZoh3
+I>E5QZOoz@B>[?knAZ355K2
+Z0 V`JN@9S9cnhjKRR_L]QIcM3
+Z1 dC:/Users/Carl/Documents/Waterloo/4A Term/ECE 429 - Computer Architecture/Project/PD5/lab 5 - stall
+w1403833724
+8ECE429_ALU.v
+FECE429_ALU.v
+L0 3
+Z2 OP;L;10.3a;59
+r1
+!s85 0
+31
+!s108 1406571880.418000
+!s107 ECE429_ControlBits.v|ECE429_ALU.v|
+!s90 -reportprogress|300|ECE429_ALU.v|
+!s101 -O0
+!i113 1
+Z3 o-L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0
+n@e@c@e429_@a@l@u
+vECE429_CPU
+Z4 !s110 1406571882
+!i10b 1
+!s100 `k4S4?KPg<]O;^^2he0N83
+IihHV9c16hog]`^8cM[HFT3
+R0
+R1
+Z5 w1406571722
+Z6 8ECE429_CPU.v
+Z7 FECE429_CPU.v
+L0 4
+R2
+r1
+!s85 0
+31
+Z8 !s108 1406571881.978000
+Z9 !s107 ECE429_Memory.v|ECE429_RegFile.v|ECE429_ControlBits.v|ECE429_CPU.v|
+Z10 !s90 -reportprogress|300|ECE429_CPU.v|
+!s101 -O0
+!i113 1
+R3
+n@e@c@e429_@c@p@u
+vECE429_Decode
+!s110 1406571877
+!i10b 1
+!s100 2g36A0X>7FhDT3HX6MW3F0
+Io>0hH2CU9T3AhJYhG3h`=1
+R0
+R1
+w1405888276
+8ECE429_Decode.v
+FECE429_Decode.v
+L0 3
+R2
+r1
+!s85 0
+31
+!s108 1406571877.328000
+!s107 ECE429_ControlBits.v|ECE429_Decode.v|
+!s90 -reportprogress|300|ECE429_Decode.v|
+!s101 -O0
+!i113 1
+R3
+n@e@c@e429_@decode
+vECE429_Fetch
+!s110 1406571878
+!i10b 1
+!s100 UITU7e4e2413]A>@gUaEB3
+IbWk<_URbf>^[P]]8z0Uic3
+R0
+R1
+w1405894720
+8ECE429_Fetch.v
+FECE429_Fetch.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1406571878.108000
+!s107 ECE429_Fetch.v|
+!s90 -reportprogress|300|ECE429_Fetch.v|
+!s101 -O0
+!i113 1
+R3
+n@e@c@e429_@fetch
+vECE429_Memory
+R4
+!i10b 1
+!s100 2ffWK]02PLXM8o@S8CfUN1
+ITaSLZMQ_l^L9PdcaHkjFi1
+R0
+R1
+R5
+FECE429_Memory.v
+Z11 FECE429_RegFile.v
+R6
+R7
+L0 3
+R2
+r1
+!s85 0
+31
+R8
+R9
+R10
+!s101 -O0
+!i113 1
+R3
+n@e@c@e429_@memory
+vECE429_RegFile
+R4
+!i10b 1
+!s100 UXnJVE:<f3]I?Llm]o1I60
+I>Ie91BAY4`0]ol5OJ]MkV0
+R0
+R1
+R5
+R11
+R6
+R7
+L0 7
+R2
+r1
+!s85 0
+31
+R8
+R9
+R10
+!s101 -O0
+!i113 1
+R3
+n@e@c@e429_@reg@file
+vECE429_SRECParser
+!s110 1406571876
+!i10b 1
+!s100 NIcC>=VNdNi3iL^=7G6E53
+IW5^g:DSAX7YWh[kIUAT242
+R0
+R1
+w1401060729
+8ECE429_SRECParser.v
+FECE429_SRECParser.v
+L0 4
+R2
+r1
+!s85 0
+31
+!s108 1406571876.548000
+!s107 ECE429_SRECParser.v|
+!s90 -reportprogress|300|ECE429_SRECParser.v|
+!s101 -O0
+!i113 1
+R3
+n@e@c@e429_@s@r@e@c@parser

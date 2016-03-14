@@ -1,0 +1,6769 @@
+# Reading C:/Modeltech_pe_edu_10.3a/tcl/vsim/pref.tcl
+# do compile.tcl
+# 
+#   ModelSimSE general compile script version 1.1
+#   Copyright (c) Doulos June 2004, SD
+# 
+# 
+#                            design_library  {ECE429_SRECParser.v
+# 											ECE429_Decode.v
+# 											ECE429_Fetch.v
+# 											ECE429_RegFile.v
+# 											ECE429_ControlBits.v
+# 											ECE429_ALU.v
+# 											ECE429_Memory.v
+# 											ECE429_CPU.v}
+# 											
+#                            test_library   {	ECE429_SRECParser.v
+# 											ECE429_CPU_tb.v
+# 											ECE429_Decode.v
+# 											ECE429_Fetch.v
+# 											ECE429_RegFile.v
+# 											ECE429_ControlBits.v
+# 											ECE429_ALU.v
+# 											ECE429_Memory.v
+# 											ECE429_CPU.v}
+# 
+# test_library.ECE429_CPU_tb
+# 
+# 	/ECE429_CPU_tb/c/f/pc_out
+# 	/ECE429_CPU_tb/c/stall
+# 	/ECE429_CPU_tb/c/RAW_STALL
+# 	/ECE429_CPU_tb/c/regIn
+# 	/ECE429_CPU_tb/c/MW_RD
+# 	/ECE429_CPU_tb/c/rsOut
+# 	/ECE429_CPU_tb/c/inputB
+# 	/ECE429_CPU_tb/c/inputA
+# 	/ECE429_CPU_tb/c/alu/ALUop
+# 	/ECE429_CPU_tb/c/aluBran
+# 	/ECE429_CPU_tb/c/Idataout
+# 	/ECE429_CPU_tb/c/control_array
+# 	/ECE429_CPU_tb/c/DX_Ctrl
+# 	/ECE429_CPU_tb/c/XM_Ctrl
+# 	/ECE429_CPU_tb/c/MW_Ctrl
+# 	/ECE429_CPU_tb/c/rf/reg_file[0]
+# 	/ECE429_CPU_tb/c/rf/reg_file[1]
+# 	/ECE429_CPU_tb/c/rf/reg_file[2]
+# 	/ECE429_CPU_tb/c/rf/reg_file[3]
+# 	/ECE429_CPU_tb/c/rf/reg_file[4]
+# 	/ECE429_CPU_tb/c/rf/reg_file[29]
+# 	/ECE429_CPU_tb/c/rf/reg_file[30]
+# 	/ECE429_CPU_tb/c/rf/reg_file[31]
+# 
+# 
+#                            hexadecimal {data q}
+# 
+# 1
+# Courier 10 roman normal
+# 1406670240
+# 0
+# Model Technology ModelSim PE Student Edition vlog 10.3a Compiler 2014.04 Apr 14 2014
+# Start time: 17:44:01 on Jul 29,2014
+# vlog -reportprogress 300 ECE429_SRECParser.v 
+# -- Compiling module ECE429_SRECParser
+# 
+# Top level modules:
+# 	ECE429_SRECParser
+# End time: 17:44:01 on Jul 29,2014, Elapsed time: 0: 0: 0
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim PE Student Edition vlog 10.3a Compiler 2014.04 Apr 14 2014
+# Start time: 17:44:02 on Jul 29,2014
+# vlog -reportprogress 300 ECE429_Decode.v 
+# -- Compiling module ECE429_Decode
+# 
+# Top level modules:
+# 	ECE429_Decode
+# End time: 17:44:02 on Jul 29,2014, Elapsed time: 0: 0: 0
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim PE Student Edition vlog 10.3a Compiler 2014.04 Apr 14 2014
+# Start time: 17:44:02 on Jul 29,2014
+# vlog -reportprogress 300 ECE429_Fetch.v 
+# -- Compiling module ECE429_Fetch
+# 
+# Top level modules:
+# 	ECE429_Fetch
+# End time: 17:44:02 on Jul 29,2014, Elapsed time: 0: 0: 0
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim PE Student Edition vlog 10.3a Compiler 2014.04 Apr 14 2014
+# Start time: 17:44:03 on Jul 29,2014
+# vlog -reportprogress 300 ECE429_RegFile.v 
+# -- Compiling module ECE429_Memory
+# -- Compiling module ECE429_RegFile
+# 
+# Top level modules:
+# 	ECE429_Memory
+# 	ECE429_RegFile
+# End time: 17:44:03 on Jul 29,2014, Elapsed time: 0: 0: 0
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim PE Student Edition vlog 10.3a Compiler 2014.04 Apr 14 2014
+# Start time: 17:44:04 on Jul 29,2014
+# vlog -reportprogress 300 ECE429_ControlBits.v 
+# End time: 17:44:04 on Jul 29,2014, Elapsed time: 0: 0: 0
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim PE Student Edition vlog 10.3a Compiler 2014.04 Apr 14 2014
+# Start time: 17:44:04 on Jul 29,2014
+# vlog -reportprogress 300 ECE429_ALU.v 
+# -- Compiling module ECE429_ALU
+# 
+# Top level modules:
+# 	ECE429_ALU
+# End time: 17:44:05 on Jul 29,2014, Elapsed time: 0: 0: 1
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim PE Student Edition vlog 10.3a Compiler 2014.04 Apr 14 2014
+# Start time: 17:44:05 on Jul 29,2014
+# vlog -reportprogress 300 ECE429_Memory.v 
+# -- Compiling module ECE429_Memory
+# 
+# Top level modules:
+# 	ECE429_Memory
+# End time: 17:44:05 on Jul 29,2014, Elapsed time: 0: 0: 0
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim PE Student Edition vlog 10.3a Compiler 2014.04 Apr 14 2014
+# Start time: 17:44:06 on Jul 29,2014
+# vlog -reportprogress 300 ECE429_CPU.v 
+# -- Compiling module ECE429_Memory
+# -- Compiling module ECE429_RegFile
+# -- Compiling module ECE429_CPU
+# 
+# Top level modules:
+# 	ECE429_CPU
+# End time: 17:44:06 on Jul 29,2014, Elapsed time: 0: 0: 0
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim PE Student Edition vlog 10.3a Compiler 2014.04 Apr 14 2014
+# Start time: 17:44:07 on Jul 29,2014
+# vlog -reportprogress 300 ECE429_SRECParser.v 
+# -- Compiling module ECE429_SRECParser
+# 
+# Top level modules:
+# 	ECE429_SRECParser
+# End time: 17:44:07 on Jul 29,2014, Elapsed time: 0: 0: 0
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim PE Student Edition vlog 10.3a Compiler 2014.04 Apr 14 2014
+# Start time: 17:44:08 on Jul 29,2014
+# vlog -reportprogress 300 ECE429_CPU_tb.v 
+# -- Compiling module ECE429_CPU_tb
+# 
+# Top level modules:
+# 	ECE429_CPU_tb
+# End time: 17:44:08 on Jul 29,2014, Elapsed time: 0: 0: 0
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim PE Student Edition vlog 10.3a Compiler 2014.04 Apr 14 2014
+# Start time: 17:44:09 on Jul 29,2014
+# vlog -reportprogress 300 ECE429_Decode.v 
+# -- Compiling module ECE429_Decode
+# 
+# Top level modules:
+# 	ECE429_Decode
+# End time: 17:44:09 on Jul 29,2014, Elapsed time: 0: 0: 0
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim PE Student Edition vlog 10.3a Compiler 2014.04 Apr 14 2014
+# Start time: 17:44:10 on Jul 29,2014
+# vlog -reportprogress 300 ECE429_Fetch.v 
+# -- Compiling module ECE429_Fetch
+# 
+# Top level modules:
+# 	ECE429_Fetch
+# End time: 17:44:10 on Jul 29,2014, Elapsed time: 0: 0: 0
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim PE Student Edition vlog 10.3a Compiler 2014.04 Apr 14 2014
+# Start time: 17:44:10 on Jul 29,2014
+# vlog -reportprogress 300 ECE429_RegFile.v 
+# -- Compiling module ECE429_Memory
+# -- Compiling module ECE429_RegFile
+# 
+# Top level modules:
+# 	ECE429_Memory
+# 	ECE429_RegFile
+# End time: 17:44:10 on Jul 29,2014, Elapsed time: 0: 0: 0
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim PE Student Edition vlog 10.3a Compiler 2014.04 Apr 14 2014
+# Start time: 17:44:11 on Jul 29,2014
+# vlog -reportprogress 300 ECE429_ControlBits.v 
+# End time: 17:44:11 on Jul 29,2014, Elapsed time: 0: 0: 0
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim PE Student Edition vlog 10.3a Compiler 2014.04 Apr 14 2014
+# Start time: 17:44:12 on Jul 29,2014
+# vlog -reportprogress 300 ECE429_ALU.v 
+# -- Compiling module ECE429_ALU
+# 
+# Top level modules:
+# 	ECE429_ALU
+# End time: 17:44:12 on Jul 29,2014, Elapsed time: 0: 0: 0
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim PE Student Edition vlog 10.3a Compiler 2014.04 Apr 14 2014
+# Start time: 17:44:13 on Jul 29,2014
+# vlog -reportprogress 300 ECE429_Memory.v 
+# -- Compiling module ECE429_Memory
+# 
+# Top level modules:
+# 	ECE429_Memory
+# End time: 17:44:13 on Jul 29,2014, Elapsed time: 0: 0: 0
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim PE Student Edition vlog 10.3a Compiler 2014.04 Apr 14 2014
+# Start time: 17:44:13 on Jul 29,2014
+# vlog -reportprogress 300 ECE429_CPU.v 
+# -- Compiling module ECE429_Memory
+# -- Compiling module ECE429_RegFile
+# -- Compiling module ECE429_CPU
+# 
+# Top level modules:
+# 	ECE429_CPU
+# End time: 17:44:13 on Jul 29,2014, Elapsed time: 0: 0: 0
+# Errors: 0, Warnings: 0
+# 1406670240
+# //  ModelSim PE Student Edition 10.3a Apr 14 2014 
+# //
+# //  Copyright 1991-2014 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# // NOT FOR CORPORATE OR PRODUCTION USE.
+# // THE ModelSim PE Student Edition IS NOT A SUPPORTED PRODUCT.
+# // FOR HIGHER EDUCATION PURPOSES ONLY
+# //
+# vsim test_library.ECE429_CPU_tb
+# Start time: 17:44:15 on Jul 29,2014
+# Loading test_library.ECE429_CPU_tb
+# Loading test_library.ECE429_CPU
+# Loading test_library.ECE429_Fetch
+# Loading test_library.ECE429_Memory
+# Loading test_library.ECE429_Decode
+# Loading test_library.ECE429_ALU
+# Loading test_library.ECE429_RegFile
+# Loading test_library.ECE429_SRECParser
+# ** Error: bad window path name ".wave"
+# Error in macro ./compile.tcl line 114
+# bad window path name ".wave"
+#     while executing
+# "::tk::wm geometry .wave 1366x330+0-20"
+#     ("uplevel" body line 1)
+#     invoked from within
+# "uplevel 1 [concat [list ::tk::wm $option $window] $args]"
+#     (procedure "wm" line 58)
+#     invoked from within
+# "wm geometry .wave [winfo screenwidth .]x330+0-20"
+#     invoked from within
+# "if $tk_ok {wm geometry .wave [winfo screenwidth .]x330+0-20}"
+#     invoked from within
+# "if [llength $wave_patterns] {
+#   noview wave
+#   foreach pattern $wave_patterns {
+#     add wave $pattern
+#   }
+#   configure wave -signalnamewidth 1
+#   foreach..."
+run -all
+# S0 Record: start_address=0x00000000 data=0x
+# 53
+# 69
+# 6d
+# 70
+# 6c
+# 65
+# 41
+# 64
+# 64
+# 2e
+# 73
+# 72
+# 65
+# 63
+# checksum=0xa0
+# 
+# S3 Record: start_address=0x80020000 data=0x
+# 27
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# NOP
+# 
+# bd
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# ff
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# e8
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# af
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# be
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# 00
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# 14
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# 03
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# a0
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# f0
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# 21
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# 24
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# 02
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# 00
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# 03
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# checksum=0x3f
+# 
+# S3 Record: start_address=0x80020010 data=0x
+# af
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# c2
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# 00
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# 00
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# 24
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# 02
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# 00
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# 02
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# af
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# c2
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# 00
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# 04
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# af
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# c0
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# 00
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# 08
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# checksum=0xd3
+# 
+# S3 Record: start_address=0x80020020 data=0x
+# 8f
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# c3
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# 00
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# 00
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# 8f
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# c2
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# 00
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# 04
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# 00
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# 62
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# 10
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# 21
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# af
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# c2
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# 00
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# 08
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# checksum=0x95
+# 
+# S3 Record: start_address=0x80020030 data=0x
+# 8f
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# c2
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# 00
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# 08
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# 03
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# c0
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# e8
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# 21
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# 8f
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# be
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# 00
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# 14
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# 27
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# bd
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# 00
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# 18
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# checksum=0xb6
+# 
+# S3 Record: start_address=0x80020040 data=0x
+# 03
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# e0
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# 00
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# 08
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# 00
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# 00
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# 00
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# 00
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# checksum=0x45
+# 
+# S7 Record: start_address=0x80020000 data=0x
+# checksum=0x78
+# 
+# Done parsing SREC file.  Exiting parser.
+# 
+# rising edge
+# 
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# ADDIU $29, $29,    -24
+# 
+# read at mem[0x80020000] = 0x27bdffe8
+# 
+# rising edge
+# 
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# SW $30,    20($29)
+# 
+# read at mem[0x80020004] = 0xafbe0014
+# 
+# rising edge
+# 
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# ADDU $30, $29, $ 0
+# 
+# read at mem[0x80020008] = 0x03a0f021
+# 
+# rising edge
+# 
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# ADDIU $ 2, $ 0,      3
+# 
+# read at mem[0x8002000c] = 0x24020003
+# 
+# rising edge
+# 
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663272 
+# r        30:         30 
+# r        31:          0 
+# SW $ 2,     0($30)
+# 
+# read at mem[0x80020010] = 0xafc20000
+# 
+# rising edge
+# 
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663272 
+# r        30:         30 
+# r        31:          0 
+# ADDIU $ 2, $ 0,      2
+# 
+# read at mem[0x80020014] = 0x24020002
+# 
+# rising edge
+# 
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663272 
+# r        30: 2148663272 
+# r        31:          0 
+# SW $ 2,     4($30)
+# 
+# read at mem[0x80020018] = 0xafc20004
+# 
+# rising edge
+# 
+# r         0:          0 
+# r         1:          1 
+# r         2:          3 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663272 
+# r        30: 2148663272 
+# r        31:          0 
+# SW $ 0,     8($30)
+# 
+# read at mem[0x8002001c] = 0xafc00008
+# 
+# rising edge
+# 
+# r         0:          0 
+# r         1:          1 
+# r         2:          3 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663272 
+# r        30: 2148663272 
+# r        31:          0 
+# LW $ 3,     0($30)
+# 
+# read at mem[0x80020020] = 0x8fc30000
+# 
+# rising edge
+# 
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663272 
+# r        30: 2148663272 
+# r        31:          0 
+# LW $ 2,     4($30)
+# 
+# read at mem[0x80020024] = 0x8fc20004
+# 
+# rising edge
+# 
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663272 
+# r        30: 2148663272 
+# r        31:          0 
+# ADDU $ 2, $ 3, $ 2
+# 
+# read at mem[0x80020028] = 0x00621021
+# 
+# rising edge
+# 
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663272 
+# r        30: 2148663272 
+# r        31:          0 
+# read at mem[0x80020028] = 0x00621021
+# 
+# rising edge
+# 
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663272 
+# r        30: 2148663272 
+# r        31:          0 
+# SW $ 2,     8($30)
+# 
+# read at mem[0x8002002c] = 0xafc20008
+# 
+# rising edge
+# 
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663272 
+# r        30: 2148663272 
+# r        31:          0 
+# LW $ 2,     8($30)
+# 
+# read at mem[0x80020030] = 0x8fc20008
+# 
+# rising edge
+# 
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663272 
+# r        30: 2148663272 
+# r        31:          0 
+# ADDU $29, $30, $ 0
+# 
+# read at mem[0x80020034] = 0x03c0e821
+# 
+# rising edge
+# 
+# r         0:          0 
+# r         1:          1 
+# r         2:          5 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663272 
+# r        30: 2148663272 
+# r        31:          0 
+# LW $30,    20($29)
+# 
+# read at mem[0x80020038] = 0x8fbe0014
+# 
+# rising edge
+# 
+# r         0:          0 
+# r         1:          1 
+# r         2:          5 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663272 
+# r        30: 2148663272 
+# r        31:          0 
+# ADDIU $29, $29,     24
+# 
+# read at mem[0x8002003c] = 0x27bd0018
+# 
+# rising edge
+# 
+# r         0:          0 
+# r         1:          1 
+# r         2:          5 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663272 
+# r        30: 2148663272 
+# r        31:          0 
+# JR $31
+# 
+# read at mem[0x80020040] = 0x03e00008
+# 
+# rising edge
+# 
+# r         0:          0 
+# r         1:          1 
+# r         2:          5 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663272 
+# r        30: 2148663272 
+# r        31:          0 
+# NOP
+# 
+# read at mem[0x80020044] = 0x00000000
+# 
+# rising edge
+# 
+# r         0:          0 
+# r         1:          1 
+# r         2:          5 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663272 
+# r        30:         30 
+# r        31:          0 
+# read at mem[0x80020048] = 0xxxxxxxxx
+# 
+# rising edge
+# 
+# r         0:          0 
+# r         1:          1 
+# r         2:          5 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# ERROR: Opcode not recognized: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+# 
+# read at mem[0x00000000] = 0xxxxxxxxx
+# 
+# rising edge
+# 
+# r         0:          0 
+# r         1:          1 
+# r         2:          5 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# read at mem[0x00000004] = 0xxxxxxxxx
+# 
+# ** Note: $finish    : ECE429_CPU.v(362)
+#    Time: 1880 ns  Iteration: 1  Instance: /ECE429_CPU_tb/c
+# 1
+# Break in Module ECE429_CPU at ECE429_CPU.v line 362
+add wave -position insertpoint  \
+sim:/ECE429_CPU_tb/c/DX_rs_dx_fw \
+sim:/ECE429_CPU_tb/c/DX_rs_xm_fw \
+sim:/ECE429_CPU_tb/c/DX_rt_dx_fw \
+sim:/ECE429_CPU_tb/c/DX_rt_xm_fw \
+sim:/ECE429_CPU_tb/c/XM_rs_dx_fw \
+sim:/ECE429_CPU_tb/c/XM_rs_xm_fw \
+sim:/ECE429_CPU_tb/c/XM_rt_dx_fw \
+sim:/ECE429_CPU_tb/c/XM_rt_xm_fw
+restart -f
+run -all
+# S0 Record: start_address=0x00000000 data=0x
+# 53
+# 69
+# 6d
+# 70
+# 6c
+# 65
+# 41
+# 64
+# 64
+# 2e
+# 73
+# 72
+# 65
+# 63
+# checksum=0xa0
+# 
+# S3 Record: start_address=0x80020000 data=0x
+# 27
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# NOP
+# 
+# bd
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# ff
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# e8
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# af
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# be
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# 00
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# 14
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# 03
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# a0
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# f0
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# 21
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# 24
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# 02
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# 00
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# 03
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# checksum=0x3f
+# 
+# S3 Record: start_address=0x80020010 data=0x
+# af
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# c2
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# 00
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# 00
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# 24
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# 02
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# 00
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# 02
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# af
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# c2
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# 00
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# 04
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# af
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# c0
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# 00
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# 08
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# checksum=0xd3
+# 
+# S3 Record: start_address=0x80020020 data=0x
+# 8f
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# c3
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# 00
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# 00
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# 8f
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# c2
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# 00
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# 04
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# 00
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# 62
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# 10
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# 21
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# af
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# c2
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# 00
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# 08
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# checksum=0x95
+# 
+# S3 Record: start_address=0x80020030 data=0x
+# 8f
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# c2
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# 00
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# 08
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# 03
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# c0
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# e8
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# 21
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# 8f
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# be
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# 00
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# 14
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# 27
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# bd
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# 00
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# 18
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# checksum=0xb6
+# 
+# S3 Record: start_address=0x80020040 data=0x
+# 03
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# e0
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# 00
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# 08
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# 00
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# 00
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# 00
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# 00
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# checksum=0x45
+# 
+# S7 Record: start_address=0x80020000 data=0x
+# checksum=0x78
+# 
+# Done parsing SREC file.  Exiting parser.
+# 
+# rising edge
+# 
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# ADDIU $29, $29,    -24
+# 
+# read at mem[0x80020000] = 0x27bdffe8
+# 
+# rising edge
+# 
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# SW $30,    20($29)
+# 
+# read at mem[0x80020004] = 0xafbe0014
+# 
+# rising edge
+# 
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# ADDU $30, $29, $ 0
+# 
+# read at mem[0x80020008] = 0x03a0f021
+# 
+# rising edge
+# 
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# ADDIU $ 2, $ 0,      3
+# 
+# read at mem[0x8002000c] = 0x24020003
+# 
+# rising edge
+# 
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663272 
+# r        30:         30 
+# r        31:          0 
+# SW $ 2,     0($30)
+# 
+# read at mem[0x80020010] = 0xafc20000
+# 
+# rising edge
+# 
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663272 
+# r        30:         30 
+# r        31:          0 
+# ADDIU $ 2, $ 0,      2
+# 
+# read at mem[0x80020014] = 0x24020002
+# 
+# rising edge
+# 
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663272 
+# r        30: 2148663272 
+# r        31:          0 
+# SW $ 2,     4($30)
+# 
+# read at mem[0x80020018] = 0xafc20004
+# 
+# rising edge
+# 
+# r         0:          0 
+# r         1:          1 
+# r         2:          3 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663272 
+# r        30: 2148663272 
+# r        31:          0 
+# SW $ 0,     8($30)
+# 
+# read at mem[0x8002001c] = 0xafc00008
+# 
+# rising edge
+# 
+# r         0:          0 
+# r         1:          1 
+# r         2:          3 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663272 
+# r        30: 2148663272 
+# r        31:          0 
+# LW $ 3,     0($30)
+# 
+# read at mem[0x80020020] = 0x8fc30000
+# 
+# rising edge
+# 
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663272 
+# r        30: 2148663272 
+# r        31:          0 
+# LW $ 2,     4($30)
+# 
+# read at mem[0x80020024] = 0x8fc20004
+# 
+# rising edge
+# 
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663272 
+# r        30: 2148663272 
+# r        31:          0 
+# ADDU $ 2, $ 3, $ 2
+# 
+# read at mem[0x80020028] = 0x00621021
+# 
+# rising edge
+# 
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663272 
+# r        30: 2148663272 
+# r        31:          0 
+# read at mem[0x80020028] = 0x00621021
+# 
+# rising edge
+# 
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663272 
+# r        30: 2148663272 
+# r        31:          0 
+# SW $ 2,     8($30)
+# 
+# read at mem[0x8002002c] = 0xafc20008
+# 
+# rising edge
+# 
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663272 
+# r        30: 2148663272 
+# r        31:          0 
+# LW $ 2,     8($30)
+# 
+# read at mem[0x80020030] = 0x8fc20008
+# 
+# rising edge
+# 
+# r         0:          0 
+# r         1:          1 
+# r         2:          2 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663272 
+# r        30: 2148663272 
+# r        31:          0 
+# ADDU $29, $30, $ 0
+# 
+# read at mem[0x80020034] = 0x03c0e821
+# 
+# rising edge
+# 
+# r         0:          0 
+# r         1:          1 
+# r         2:          5 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663272 
+# r        30: 2148663272 
+# r        31:          0 
+# LW $30,    20($29)
+# 
+# read at mem[0x80020038] = 0x8fbe0014
+# 
+# rising edge
+# 
+# r         0:          0 
+# r         1:          1 
+# r         2:          5 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663272 
+# r        30: 2148663272 
+# r        31:          0 
+# ADDIU $29, $29,     24
+# 
+# read at mem[0x8002003c] = 0x27bd0018
+# 
+# rising edge
+# 
+# r         0:          0 
+# r         1:          1 
+# r         2:          5 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663272 
+# r        30: 2148663272 
+# r        31:          0 
+# JR $31
+# 
+# read at mem[0x80020040] = 0x03e00008
+# 
+# rising edge
+# 
+# r         0:          0 
+# r         1:          1 
+# r         2:          5 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663272 
+# r        30: 2148663272 
+# r        31:          0 
+# NOP
+# 
+# read at mem[0x80020044] = 0x00000000
+# 
+# rising edge
+# 
+# r         0:          0 
+# r         1:          1 
+# r         2:          5 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663272 
+# r        30:         30 
+# r        31:          0 
+# read at mem[0x80020048] = 0xxxxxxxxx
+# 
+# rising edge
+# 
+# r         0:          0 
+# r         1:          1 
+# r         2:          5 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# ERROR: Opcode not recognized: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+# 
+# read at mem[0x00000000] = 0xxxxxxxxx
+# 
+# rising edge
+# 
+# r         0:          0 
+# r         1:          1 
+# r         2:          5 
+# r         3:          3 
+# r         4:          4 
+# r         5:          5 
+# r         6:          6 
+# r         7:          7 
+# r         8:          8 
+# r         9:          9 
+# r        10:         10 
+# r        11:         11 
+# r        12:         12 
+# r        13:         13 
+# r        14:         14 
+# r        15:         15 
+# r        16:         16 
+# r        17:         17 
+# r        18:         18 
+# r        19:         19 
+# r        20:         20 
+# r        21:         21 
+# r        22:         22 
+# r        23:         23 
+# r        24:         24 
+# r        25:         25 
+# r        26:         26 
+# r        27:         27 
+# r        28:         28 
+# r        29: 2148663296 
+# r        30:         30 
+# r        31:          0 
+# read at mem[0x00000004] = 0xxxxxxxxx
+# 
+# ** Note: $finish    : ECE429_CPU.v(362)
+#    Time: 1880 ns  Iteration: 1  Instance: /ECE429_CPU_tb/c
+# 1
+# Break in Module ECE429_CPU at ECE429_CPU.v line 362
+# End time: 18:07:14 on Jul 29,2014, Elapsed time: 0:22:59
+# Errors: 0, Warnings: 0

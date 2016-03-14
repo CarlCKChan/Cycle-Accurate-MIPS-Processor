@@ -1,0 +1,97 @@
+include "ECE429_SRECParser.v";
+
+module ECE429_SRECParser_tb();
+
+reg clock;
+reg parseEnable;
+wire[0:31] parseAddr;		// A 32-bit address to put into the memory
+wire[0:31] memAddr;
+wire[0:31] memData;			// A 32-bit piece of data to write to memory
+wire[0:1] parseAccessSize;		// The access size to write to the memory using
+wire[0:1] memAccessSize;
+wire memR_W;					// Whether to read or write to memory
+wire parseDone;					// Set to 1 once parser is parseDone
+wire parseError;					// Set to 1 on parseError
+
+reg[0:31] readAddr;
+reg[0:31] readAccessSize;
+
+reg[0:31] maxReadAddr;
+
+wire [0:31] dataout;		// To see output of the memory
+
+initial begin
+	clock = 0;
+	maxReadAddr = 32'h00000000;
+	
+	// Toggle parse enable
+	parseEnable = 0;
+	#1
+	parseEnable = 1;
+	#1
+	parseEnable = 0;
+
+	readAccessSize = 2'b11;
+	readAddr = 32'h80020000;
+	@(posedge clock);
+	readAddr = parseAddr;
+	//$monitor("%g\t%b\t%b\t%b", $time, clock, parseDone, parseError);
+	//$monitor("%b\t%b\n", parseDone, parseError);
+
+end
+
+assign memR_W = ~parseDone;
+assign memAddr = (parseDone) ? readAddr : parseAddr; 
+assign memAccessSize = (parseDone) ? readAccessSize : parseAccessSize;
+
+always begin
+  #10 clock = ~clock;
+end
+
+
+always @(parseAddr) begin
+	if(parseAddr > maxReadAddr) begin
+		maxReadAddr = parseAddr;
+	end
+end
+
+
+always @(parseError) begin
+  if(parseError == 1) begin
+    $finish;
+  end
+end
+
+always @(negedge clock) begin
+	if (parseDone == 1) begin
+		$display("read at mem[0x%h] = 0x%h\n", readAddr, dataout);
+		readAddr = readAddr + 4;
+		//if(readAddr == (32'h80020000 + 1000)) begin
+		if(readAddr >= maxReadAddr) begin
+			$finish;
+		end
+	end
+end
+
+ECE429_SRECParser #("SimpleIf.srec") s(
+	.clock(clock),
+	.parseEnable(parseEnable),
+	.parseAddr(parseAddr), 
+	.memData(memData), 
+	.parseAccessSize(parseAccessSize), 
+	.parseDone(parseDone), 
+	.parseError(parseError)
+);
+
+
+ECE429_Memory m(
+  .clock(clock),
+  .address(memAddr),
+  .datain(memData),
+  .access_size(memAccessSize),
+  .r_w(memR_W),
+  .dataout(dataout)
+);
+
+
+endmodule

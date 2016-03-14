@@ -1,0 +1,59 @@
+C:/Users/Carl/Dropbox/ECE429/PD2/ECE429_Fetch.v {1 {vlog -stats=none -work work C:/Users/Carl/Dropbox/ECE429/PD2/ECE429_Fetch.v
+Model Technology ModelSim PE Student Edition vlog 10.3a Compiler 2014.04 Apr 14 2014
+-- Compiling module ECE429_Fetch
+
+Top level modules:
+	ECE429_Fetch
+
+} {} {}} {C:/Users/Carl/Documents/Waterloo/4A Term/ECE 429 - Computer Architecture/Project/PD1/ECE429_Memory_tb.v} {1 {vlog -stats=none -work work {C:/Users/Carl/Documents/Waterloo/4A Term/ECE 429 - Computer Architecture/Project/PD1/ECE429_Memory_tb.v}
+Model Technology ModelSim PE Student Edition vlog 10.3a Compiler 2014.04 Apr 14 2014
+-- Compiling module ECE429_Memory
+-- Compiling module ECE429_Memory_tb
+
+Top level modules:
+	ECE429_Memory_tb
+
+} {} {}} {C:/Users/Carl/Documents/Waterloo/4A Term/ECE 429 - Computer Architecture/Project/PD1/ECE429_SRECParser.v} {1 {vlog -stats=none -work work {C:/Users/Carl/Documents/Waterloo/4A Term/ECE 429 - Computer Architecture/Project/PD1/ECE429_SRECParser.v}
+Model Technology ModelSim PE Student Edition vlog 10.3a Compiler 2014.04 Apr 14 2014
+-- Compiling module ECE429_SRECParser
+
+Top level modules:
+	ECE429_SRECParser
+
+} {} {}} {C:/Users/Carl/Documents/Waterloo/4A Term/ECE 429 - Computer Architecture/Project/PD1/ECE429_SRECParser_tb.v} {1 {vlog -stats=none -work work {C:/Users/Carl/Documents/Waterloo/4A Term/ECE 429 - Computer Architecture/Project/PD1/ECE429_SRECParser_tb.v}
+Model Technology ModelSim PE Student Edition vlog 10.3a Compiler 2014.04 Apr 14 2014
+-- Compiling module ECE429_SRECParser
+-- Compiling module ECE429_SRECParser_tb
+
+Top level modules:
+	ECE429_SRECParser_tb
+
+} {} {}} C:/Users/Carl/Dropbox/ECE429/PD2/ECE429_Decode.v {1 {vlog -stats=none -work work C:/Users/Carl/Dropbox/ECE429/PD2/ECE429_Decode.v
+Model Technology ModelSim PE Student Edition vlog 10.3a Compiler 2014.04 Apr 14 2014
+-- Compiling module ECE429_Decode
+
+Top level modules:
+	ECE429_Decode
+
+} {} {}} C:/Users/Carl/Dropbox/ECE429/PD2/ECE429_Decode_tb.v {1 {vlog -stats=none -work work C:/Users/Carl/Dropbox/ECE429/PD2/ECE429_Decode_tb.v
+Model Technology ModelSim PE Student Edition vlog 10.3a Compiler 2014.04 Apr 14 2014
+-- Compiling module ECE429_Decode_tb
+
+Top level modules:
+	ECE429_Decode_tb
+
+} {} {}} {C:/Users/Carl/Documents/Waterloo/4A Term/ECE 429 - Computer Architecture/Project/PD1/ECE429_Memory.v} {1 {vlog -stats=none -work work {C:/Users/Carl/Documents/Waterloo/4A Term/ECE 429 - Computer Architecture/Project/PD1/ECE429_Memory.v}
+Model Technology ModelSim PE Student Edition vlog 10.3a Compiler 2014.04 Apr 14 2014
+-- Compiling module ECE429_Memory
+
+Top level modules:
+	ECE429_Memory
+
+} {} {}} {C:/Users/Carl/Documents/Waterloo/4A Term/ECE 429 - Computer Architecture/Project/PD1/test.v} {1 {vlog -stats=none -work work {C:/Users/Carl/Documents/Waterloo/4A Term/ECE 429 - Computer Architecture/Project/PD1/test.v}
+Model Technology ModelSim PE Student Edition vlog 10.3a Compiler 2014.04 Apr 14 2014
+-- Compiling module test
+
+Top level modules:
+	test
+
+} {} {}}

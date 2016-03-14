@@ -1,0 +1,275 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/Dropbox/spring 14/comp architecture/lab 4
+vECE429_ALU
+Z0 !s110 1406083802
+!i10b 1
+!s100 [JBoX<lFND`BgiJYnGZoh3
+Ic]YRFQAG1cDW2no7m:4Uc0
+Z1 V`JN@9S9cnhjKRR_L]QIcM3
+Z2 dD:/Dropbox/spring 14/comp architecture/lab 5
+w1403833724
+8D:/Dropbox/spring 14/comp architecture/lab 5/ECE429_ALU.v
+FD:/Dropbox/spring 14/comp architecture/lab 5/ECE429_ALU.v
+L0 3
+Z3 OP;L;10.3a;59
+r1
+!s85 0
+31
+!s108 1406083802.258000
+!s107 ECE429_ControlBits.v|D:/Dropbox/spring 14/comp architecture/lab 5/ECE429_ALU.v|
+!s90 -reportprogress|300|-stats=none|-work|work|D:/Dropbox/spring 14/comp architecture/lab 5/ECE429_ALU.v|
+!s101 -O0
+!i113 1
+Z4 o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0
+n@e@c@e429_@a@l@u
+vECE429_CPU
+R0
+!i10b 1
+!s100 EUL4nEJBC@zJlhG4[h2P00
+ICSc_ZOgP]@<6KVX;YGk;:0
+R1
+R2
+w1406083798
+8D:/Dropbox/spring 14/comp architecture/lab 5/ECE429_CPU.v
+FD:/Dropbox/spring 14/comp architecture/lab 5/ECE429_CPU.v
+L0 4
+R3
+r1
+!s85 0
+31
+!s108 1406083802.478000
+!s107 ECE429_Memory.v|ECE429_RegFile.v|ECE429_ControlBits.v|D:/Dropbox/spring 14/comp architecture/lab 5/ECE429_CPU.v|
+!s90 -reportprogress|300|-stats=none|-work|work|D:/Dropbox/spring 14/comp architecture/lab 5/ECE429_CPU.v|
+!s101 -O0
+!i113 1
+R4
+n@e@c@e429_@c@p@u
+vECE429_CPU_tb
+R0
+!i10b 1
+!s100 KgfM:OT9j6ng06R<mHkKN0
+IN6Fl<2EP<@W@ZS@;GMoLc3
+R1
+R2
+w1406083389
+8D:\Dropbox\spring 14\comp architecture\lab 5\ECE429_CPU_tb.v
+FD:\Dropbox\spring 14\comp architecture\lab 5\ECE429_CPU_tb.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1406083802.624000
+!s107 D:\Dropbox\spring 14\comp architecture\lab 5\ECE429_CPU_tb.v|
+!s90 -reportprogress|300|-stats=none|-work|work|D:\Dropbox\spring 14\comp architecture\lab 5\ECE429_CPU_tb.v|
+!s101 -O0
+!i113 1
+R4
+n@e@c@e429_@c@p@u_tb
+vECE429_Decode
+R0
+!i10b 1
+!s100 2g36A0X>7FhDT3HX6MW3F0
+I0a?PQ;2dhZS6OJTc13>^k3
+R1
+R2
+w1405888276
+8D:/Dropbox/spring 14/comp architecture/lab 5/ECE429_Decode.v
+FD:/Dropbox/spring 14/comp architecture/lab 5/ECE429_Decode.v
+L0 3
+R3
+r1
+!s85 0
+31
+!s108 1406083802.737000
+!s107 ECE429_ControlBits.v|D:/Dropbox/spring 14/comp architecture/lab 5/ECE429_Decode.v|
+!s90 -reportprogress|300|-stats=none|-work|work|D:/Dropbox/spring 14/comp architecture/lab 5/ECE429_Decode.v|
+!s101 -O0
+!i113 1
+R4
+n@e@c@e429_@decode
+vECE429_Decode_tb
+R0
+!i10b 1
+!s100 LH2gTj7[c9RWQ^nmValUW3
+IcnfE1E?CnL7jd82VFHDA62
+R1
+R2
+w1402330280
+8D:/Dropbox/spring 14/comp architecture/lab 5/ECE429_Decode_tb.v
+FD:/Dropbox/spring 14/comp architecture/lab 5/ECE429_Decode_tb.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1406083802.889000
+!s107 D:/Dropbox/spring 14/comp architecture/lab 5/ECE429_Decode_tb.v|
+!s90 -reportprogress|300|-stats=none|-work|work|D:/Dropbox/spring 14/comp architecture/lab 5/ECE429_Decode_tb.v|
+!s101 -O0
+!i113 1
+R4
+n@e@c@e429_@decode_tb
+vECE429_Fetch
+Z5 !s110 1406083803
+!i10b 1
+!s100 UITU7e4e2413]A>@gUaEB3
+IjN`m7@cL?`aidL5I=c_Hh2
+R1
+R2
+w1405894720
+8D:/Dropbox/spring 14/comp architecture/lab 5/ECE429_Fetch.v
+FD:/Dropbox/spring 14/comp architecture/lab 5/ECE429_Fetch.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1406083803.014000
+!s107 D:/Dropbox/spring 14/comp architecture/lab 5/ECE429_Fetch.v|
+!s90 -reportprogress|300|-stats=none|-work|work|D:/Dropbox/spring 14/comp architecture/lab 5/ECE429_Fetch.v|
+!s101 -O0
+!i113 1
+R4
+n@e@c@e429_@fetch
+vECE429_Fetch_tb
+R5
+!i10b 1
+!s100 3>EW^7J1YPlK4FO?TL7aD0
+I@VOCl`=U[GhmK1Nl11Icd2
+R1
+R2
+w1402014240
+8D:/Dropbox/spring 14/comp architecture/lab 5/ECE429_Fetch_tb.v
+FD:/Dropbox/spring 14/comp architecture/lab 5/ECE429_Fetch_tb.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1406083803.129000
+!s107 D:/Dropbox/spring 14/comp architecture/lab 5/ECE429_Fetch_tb.v|
+!s90 -reportprogress|300|-stats=none|-work|work|D:/Dropbox/spring 14/comp architecture/lab 5/ECE429_Fetch_tb.v|
+!s101 -O0
+!i113 1
+R4
+n@e@c@e429_@fetch_tb
+vECE429_Memory
+R5
+!i10b 1
+!s100 2ffWK]02PLXM8o@S8CfUN1
+Iz3DIa696gQ5nCZo>]ljLK2
+R1
+R2
+Z6 w1406079207
+FECE429_Memory.v
+Z7 8D:/Dropbox/spring 14/comp architecture/lab 5/ECE429_RegFile.v
+Z8 FD:/Dropbox/spring 14/comp architecture/lab 5/ECE429_RegFile.v
+L0 3
+R3
+r1
+!s85 0
+31
+Z9 !s108 1406083803.508000
+Z10 !s107 ECE429_ControlBits.v|ECE429_Memory.v|D:/Dropbox/spring 14/comp architecture/lab 5/ECE429_RegFile.v|
+Z11 !s90 -reportprogress|300|-stats=none|-work|work|D:/Dropbox/spring 14/comp architecture/lab 5/ECE429_RegFile.v|
+!s101 -O0
+!i113 1
+R4
+n@e@c@e429_@memory
+vECE429_Memory_tb
+R5
+!i10b 1
+!s100 9i]hZ?iQ[Y`ZiH>Ye=`Ua1
+IM37>eUcC9BZB>Wok675ZI1
+R1
+R2
+w1400790909
+8D:/Dropbox/spring 14/comp architecture/lab 5/ECE429_Memory_tb.v
+FD:/Dropbox/spring 14/comp architecture/lab 5/ECE429_Memory_tb.v
+L0 3
+R3
+r1
+!s85 0
+31
+!s108 1406083803.371000
+!s107 ECE429_Memory.v|D:/Dropbox/spring 14/comp architecture/lab 5/ECE429_Memory_tb.v|
+!s90 -reportprogress|300|-stats=none|-work|work|D:/Dropbox/spring 14/comp architecture/lab 5/ECE429_Memory_tb.v|
+!s101 -O0
+!i113 1
+R4
+n@e@c@e429_@memory_tb
+vECE429_RegFile
+R5
+!i10b 1
+!s100 UXnJVE:<f3]I?Llm]o1I60
+IUZ@hPjWlzGo1S^K[EMcC_3
+R1
+R2
+R6
+R7
+R8
+L0 7
+R3
+r1
+!s85 0
+31
+R9
+R10
+R11
+!s101 -O0
+!i113 1
+R4
+n@e@c@e429_@reg@file
+vECE429_SRECParser
+R5
+!i10b 1
+!s100 NIcC>=VNdNi3iL^=7G6E53
+IB;Y8=Z1E_:?G:On_nnjba0
+R1
+R2
+w1401060729
+8D:/Dropbox/spring 14/comp architecture/lab 5/ECE429_SRECParser.v
+FD:/Dropbox/spring 14/comp architecture/lab 5/ECE429_SRECParser.v
+L0 4
+R3
+r1
+!s85 0
+31
+!s108 1406083803.666000
+!s107 D:/Dropbox/spring 14/comp architecture/lab 5/ECE429_SRECParser.v|
+!s90 -reportprogress|300|-stats=none|-work|work|D:/Dropbox/spring 14/comp architecture/lab 5/ECE429_SRECParser.v|
+!s101 -O0
+!i113 1
+R4
+n@e@c@e429_@s@r@e@c@parser
+vECE429_SRECParser_tb
+R0
+!i10b 1
+!s100 0o2lQ2`9MkWl8UTHj^4Wo1
+IOenJbFJfZVl>;En@L99;l1
+R1
+R2
+w1401060531
+8D:/Dropbox/spring 14/comp architecture/lab 5/ECE429_SRECParser_tb.v
+FD:/Dropbox/spring 14/comp architecture/lab 5/ECE429_SRECParser_tb.v
+L0 3
+R3
+r1
+!s85 0
+31
+!s108 1406083802.125000
+!s107 ECE429_SRECParser.v|D:/Dropbox/spring 14/comp architecture/lab 5/ECE429_SRECParser_tb.v|
+!s90 -reportprogress|300|-stats=none|-work|work|D:/Dropbox/spring 14/comp architecture/lab 5/ECE429_SRECParser_tb.v|
+!s101 -O0
+!i113 1
+R4
+n@e@c@e429_@s@r@e@c@parser_tb
